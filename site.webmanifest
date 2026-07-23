@@ -1,0 +1,18 @@
+{
+  "name": "브리퐁 프로토타입",
+  "short_name": "브리퐁",
+  "description": "시각장애인의 이커머스 탐색을 돕는 데스크톱 프로토타입",
+  "lang": "ko-KR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#eef6ff",
+  "theme_color": "#3267e8",
+  "icons": [
+    {
+      "src": "briefong-icon.png",
+      "sizes": "1080x1080",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+브리퐁 GitHub Pages 업로드 방법
+
+1. GitHub에서 새 Public 저장소를 만듭니다.
+2. 이 폴더 안의 파일과 폴더 전체를 저장소 최상위에 업로드합니다.
+3. Settings > Pages로 이동합니다.
+4. Build and deployment의 Source를 GitHub Actions로 선택합니다.
+5. Actions 탭에서 Deploy Briefong to GitHub Pages 작업이 완료될 때까지 기다립니다.
+6. 배포 주소: https://깃허브아이디.github.io/저장소이름/
+
+중요: briefong-github-pages 폴더 자체를 한 단계 더 넣지 말고, index.html이 저장소 최상위에 위치해야 합니다.

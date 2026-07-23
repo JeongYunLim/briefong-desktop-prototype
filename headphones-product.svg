@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">블루투스 헤드폰 상품 이미지</title>
+  <desc id="desc">짙은 남색 헤드밴드와 파란색 이어컵으로 구성된 오버이어 헤드폰</desc>
+  <defs>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a3d"/>
+      <stop offset="0.48" stop-color="#174d9f"/>
+      <stop offset="1" stop-color="#06152f"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67a5ff"/>
+      <stop offset="0.52" stop-color="#2865d8"/>
+      <stop offset="1" stop-color="#123c91"/>
+    </linearGradient>
+    <linearGradient id="pad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#172b55"/>
+      <stop offset="1" stop-color="#07152f"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="35%" cy="28%" r="70%">
+      <stop offset="0" stop-color="#b9d7ff" stop-opacity=".82"/>
+      <stop offset=".42" stop-color="#6aa4ff" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#143f93" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="165%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#020c1f" flood-opacity=".42"/>
+    </filter>
+  </defs>
+  <ellipse cx="360" cy="447" rx="238" ry="34" fill="#061126" opacity=".32"/>
+  <g filter="url(#shadow)">
+    <path d="M158 278C158 119 249 55 360 55s202 64 202 223" fill="none" stroke="url(#band)" stroke-width="61" stroke-linecap="round"/>
+    <path d="M186 267c0-130 72-181 174-181s174 51 174 181" fill="none" stroke="#8cb8ff" stroke-opacity=".27" stroke-width="10" stroke-linecap="round"/>
+    <rect x="113" y="245" width="95" height="160" rx="43" fill="url(#pad)" transform="rotate(-7 160 325)"/>
+    <rect x="512" y="245" width="95" height="160" rx="43" fill="url(#pad)" transform="rotate(7 560 325)"/>
+    <rect x="145" y="226" width="119" height="197" rx="53" fill="url(#cup)" transform="rotate(-7 204 324)"/>
+    <rect x="456" y="226" width="119" height="197" rx="53" fill="url(#cup)" transform="rotate(7 516 324)"/>
+    <ellipse cx="198" cy="316" rx="47" ry="76" fill="url(#shine)" transform="rotate(-7 198 316)"/>
+    <ellipse cx="522" cy="316" rx="47" ry="76" fill="url(#shine)" transform="rotate(7 522 316)"/>
+    <path d="M219 231c29 24 41 54 41 90s-12 68-40 94" fill="none" stroke="#85b4ff" stroke-opacity=".55" stroke-width="7" stroke-linecap="round"/>
+    <path d="M501 231c-29 24-41 54-41 90s12 68 40 94" fill="none" stroke="#85b4ff" stroke-opacity=".55" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>
